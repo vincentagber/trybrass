@@ -23,6 +23,6 @@ To view the website locally, simply clone this repository to your local machine 
 Contributions to improve the website design, add new features, or fix bugs are welcome! Please fork this repository, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licenseless for now.
 
 ---
