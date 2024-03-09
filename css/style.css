@@ -1,0 +1,128 @@
+/* CSS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Matter SQ', -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: 'Matter SQ', -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between; 
+    align-items: left;
+    font-size: 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.button-vincent {
+    background-color: #0bce5a; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.logo {
+    display: inline-block;
+    max-height: 30px;
+    max-width: 150px;
+    margin-top: 20px;
+}
+.banking-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 80px;
+}
+
+p {
+    margin: 90px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -70px;
+
+}
+
+.button{
+    margin: 50px;
+    padding: 10px;
+    margin-top: -350px;
+    margin-left: 100px;
+    background-color: #0bce5a;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    background-color: #1a1c1f;
+    height: 40px;
+    align-items: center;
+    font-size: 12px;
+}
+
+img {
+    display: inline-block; 
+    max-width: 150px;
+    border-radius: 5px;
+    margin-left: 90px;
+}
